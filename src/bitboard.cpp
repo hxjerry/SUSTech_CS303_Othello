@@ -1,7 +1,10 @@
 #include <cstdint>
 #include <immintrin.h>
 #include <utility>
-#include "xsimd/xsimd.hpp"
+#include <xsimd/xsimd.hpp>
+
+#include "include/bitboard.hpp"
+
 namespace xs = xsimd;
 /*
 Bitboard representation:
